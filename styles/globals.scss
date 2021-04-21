@@ -7,11 +7,15 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-    Helvetica Neue, sans-serif;
+  color: #333;
+  font-weight: 500;
+  touch-action: manipulation;
+  background-color: #fff;
+  font-family: "Antonio", sans-serif;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+

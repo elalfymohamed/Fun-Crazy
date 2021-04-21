@@ -1,5 +1,5 @@
-import { global } from "../../data/data";
+import { hero } from "../../data/data";
 
-export default function globals(req, res) {
-  res.status(200).json(global);
+export default function heros(req, res) {
+  res.status(200).json(hero);
 }
